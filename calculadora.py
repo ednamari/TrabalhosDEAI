@@ -24,8 +24,8 @@ def calculadora():
 
     operacao = input("Digite o número da operação desejada: ")
 
-    num1 = int(input("Digite o primeiro número: "))
-    num2 = int(input("Digite o segundo número: "))
+    num1 = int(input("Digite o 1 número: "))
+    num2 = int(input("Digite o 2 número: "))
 
     if operacao == '1':
         resultado = soma(num1, num2)
